@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GilroySemiBold";
+  src: url("./assets/fonts/Gilroy-Semibold.ttf") format("truetype");
+}
+
+div,
+p {
+  box-sizing: border-box;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('./assets/images/Background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: column;
+  margin: 48px auto;
+  border-radius: 15px;
+  background: linear-gradient(179deg, #26264D 0%, #141538 100%);
+  box-shadow: 0px 5px 45px 0px rgba(0, 0, 0, 0.33);
+  position: relative;
+
+  width: 663px;
+  min-height: 90vh;
+  height: fit-content;
+  padding: 50px 60px 50px 60px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.custom_button {
+  color: #fff;
+  text-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  font-size: 22px;
+  font-family: "GilroySemiBold";
+  font-weight: 600;
+  letter-spacing: 0.66px;
+
+  padding: 17px 42px;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  background: linear-gradient(0deg, #00A947 4.53%, #3BE08C 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+button:disabled {
+  background-color: #023a0c;
+  cursor: not-allowed;
+}
+
+.custom_button:hover {
+  opacity: .9;
+}
+
+input {
+  all: unset;
+  color: #FFF;
+  font-size: 16px;
+  font-family: "GilroyMedium";
+  font-weight: 500;
+  line-height: 18px;
+  height: 100%;
+  padding: 0 15px;
+  text-align: left;
+  cursor: text;
+}
+
+input::placeholder {
+  color: #FFF;
+  font-size: 16px;
+  font-family: "GilroyMedium";
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+
+.custom_input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 30px;
+}
+
+.custom_input_container p {
+  color: #FFF;
+  font-size: 16px;
+  font-family: "GilroyMedium";
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.custom_input {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 8px;
+  border: 1px solid #E6E6E6;
+  opacity: 0.699999988079071;
+}
+
+/* .custom_input:hover {
+  border: 1px solid rgba(8, 166, 82, 0.4);
+} */
+
+p {
+  all: unset;
+  text-align: left;
+}

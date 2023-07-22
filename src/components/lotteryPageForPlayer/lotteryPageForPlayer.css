@@ -1,0 +1,75 @@
+.lottery_name_h {
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    font-family: "GilroySemiBold";
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 49px;
+    padding: 0;
+}
+
+.container_fullWidth {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.LPforPlayer_info_container {
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "first first_value "
+        "second second_value "
+        "third third_value ";
+    gap: 20px 0;
+}
+
+.LPforPlayer_info_container p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(8, 166, 82, 0.2);
+}
+
+.LPforPlayer_info_container p:nth-child(odd) {
+    text-align: left;
+}
+
+.LPforPlayer_info_container p:nth-child(even) {
+    text-align: right;
+}
+
+.LPforPlayer_info_container p:nth-child(1) {
+    grid-area: first;
+}
+
+.LPforPlayer_info_container p:nth-child(2) {
+    grid-area: first_value;
+}
+
+.LPforPlayer_info_container p:nth-child(3) {
+    grid-area: second;
+}
+
+.LPforPlayer_info_container p:nth-child(4) {
+    grid-area: second_value;
+}
+
+.LPforPlayer_info_container p:nth-child(5) {
+    grid-area: third;
+}
+
+.LPforPlayer_info_container p:nth-child(6) {
+    grid-area: third_value;
+}
+
+.lotteryPage_inner_container form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

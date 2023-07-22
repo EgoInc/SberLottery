@@ -1,0 +1,38 @@
+.userPage_main_container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.userPage_lotteries_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 45%;
+    max-width: 650px;
+    height: 85vh;
+    margin: auto;
+    border-radius: 10px;
+    color: #000000;
+    padding: 15px 0;
+    position: relative;
+    background-color: #f0f3f6dc;
+}
+
+.userPage_lotteries h4,
+.userPage_lotteries_done h4 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    font-family: "GilroySemiBold";
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}

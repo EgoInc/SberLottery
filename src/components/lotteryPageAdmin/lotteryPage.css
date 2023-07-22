@@ -1,0 +1,131 @@
+.lotteryPage_image_container {
+    max-width: 80%;
+    height: 250px;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.lotteryPage_image_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.notActive_prizesInfo {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-family: "GilroyMedium";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.notActiveLottery_info_container {
+    overflow-x: hidden;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 22px;
+}
+
+
+.lotteryPage_info_container {
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "first first_value "
+        "second second_value "
+        "third third_value "
+        "forth forth_value "
+        "fifth fifth_value "
+        "sixth sixth_value ";
+    gap: 20px 0;
+}
+
+.lotteryPage_info_container p,
+.notActiveLottery_info_container a {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-family: "GilroyMedium";
+    font-weight: 500;
+    line-height: 25px;
+    padding-bottom: 4px;
+}
+
+.lotteryPage_info_container p {
+    border-bottom: 1px solid rgba(230, 230, 230, 0.2);
+}
+
+.notActiveLottery_info_container a {
+    width: 503px;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.2);
+
+}
+
+.lotteryPage_info_container p:nth-child(1) {
+    grid-area: first;
+}
+
+.lotteryPage_info_container p:nth-child(2) {
+    grid-area: first_value;
+}
+
+.lotteryPage_info_container p:nth-child(3) {
+    grid-area: second;
+}
+
+.lotteryPage_info_container p:nth-child(4) {
+    grid-area: second_value;
+}
+
+.lotteryPage_info_container p:nth-child(5) {
+    grid-area: third;
+}
+
+.lotteryPage_info_container p:nth-child(6) {
+    grid-area: third_value;
+}
+
+.lotteryPage_info_container p:nth-child(7) {
+    grid-area: forth;
+}
+
+.lotteryPage_info_container p:nth-child(8) {
+    grid-area: forth_value;
+}
+
+.lotteryPage_info_container p:nth-child(9) {
+    grid-area: fifth;
+}
+
+.lotteryPage_info_container p:nth-child(10) {
+    grid-area: fifth_value;
+}
+
+.lotteryPage_info_container p:nth-child(11) {
+    grid-area: sixth;
+}
+
+.lotteryPage_info_container p:nth-child(12) {
+    grid-area: sixth_value;
+}
+
+.lotteryPage_info_container p:nth-child(even) {
+    text-align: right !important;
+}
+
+.lotteryPage_end_button {
+    width: 319px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 60px;
+}

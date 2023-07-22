@@ -1,0 +1,19 @@
+.logIn_button {
+    margin: 0 auto;
+    margin-top: calc(100vh/3);
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    text-align: center;
+    color: rgb(39, 151, 93);
+
+    -webkit-box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.4);
+    -moz-box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.4);
+    box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.4);
+}
+
+.logIn_button:hover {
+    -webkit-box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.8);
+    -moz-box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.8);
+    box-shadow: 2px 2px 21px 11px rgba(8, 166, 82, 0.8);
+}
